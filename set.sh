@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+trap "  
+
 echo "HelloWorld"
 echo "Before error"
 sjhsjhhs
