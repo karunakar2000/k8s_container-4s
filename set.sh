@@ -1,5 +1,6 @@
 # #!/bin/bash
 
+#!/bin/bash
 set -e
 
 error() {
@@ -9,6 +10,6 @@ error() {
 trap error ERR
 
 echo "HelloWorld"
-echo "Before error-1"
-superstar 2>/dev/null # redirect stderr to /dev/null to hide Bash’s own message
-echo "After error-2"
+echo "Before error"
+sjhsjhhs 2>/dev/null   # redirect stderr to /dev/null to hide Bash’s own message
+echo "After error"
