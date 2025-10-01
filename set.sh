@@ -1,7 +1,12 @@
 #!/bin/bash
 set -e
 
-trap "  
+trap(){
+	echo "there is an error"
+
+}  
+
+trap error ERR
 
 echo "HelloWorld"
 echo "Before error"
