@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-trap(){
+error(){
 	echo "there is an error in $LINENO, command is $BASH_COMMAND"
 
 }  
