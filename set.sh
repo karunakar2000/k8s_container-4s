@@ -25,5 +25,5 @@ trap error ERR
 
 echo "HelloWorld"
 echo "Before error"
-sjhsjhhs 2>/dev/null   # redirect stderr to /dev/null to hide Bash’s own message
+sjhsjhhs    # redirect stderr to /dev/null to hide Bash’s own message
 echo "After error"
