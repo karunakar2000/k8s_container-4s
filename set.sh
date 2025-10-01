@@ -2,7 +2,7 @@
 set -e
 
 trap(){
-	echo "there is an error"
+	echo "there is an error in $LINENO, command is $BASH_COMMAND"
 
 }  
 
